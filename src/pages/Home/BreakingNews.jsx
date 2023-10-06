@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const BreakingNews = () => {
     return (
-        <div className="flex p-3 bg-zinc-100">
-            <button className="btn btn-secondary mr-4"> Latest</button>
+        <div className="flex p-3 bg-zinc-100 my-6">
+            <button className="btn bg-rose-600 rounded-none text-white mr-4"> Latest</button>
             <Marquee pauseOnHover={true} speed={100}>
                 <Link>I can be a React component, multiple React components, or just some text...</Link>
                 <Link className="mx-12">I can be a React component, multiple React components, or just some text...</Link>
