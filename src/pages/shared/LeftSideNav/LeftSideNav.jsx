@@ -18,7 +18,7 @@ const LeftSideNav = () => {
             {
                 categories?.map(category =>
                     <NavLink 
-                    className="block text-xl px-10 py-4  hover:bg-slate-100 hover:font-semibold"
+                    className="block text-xl px-7 py-3 md:px-10 md:py-4  hover:bg-slate-100"
                     key={category.id}
                     to={`/category${category.id}`}>
                     {category.name}
